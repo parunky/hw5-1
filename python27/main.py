@@ -20,6 +20,7 @@ class Root(webapp2.RequestHandler):
     self.response.headers['Content-Type'] = 'text/html; charset=UTF-8'
     self.response.write('''
 <h1>Hello!</h1>
+i changed some code
   <ul>
     <li><a href=/pata>パタトクカシーー</a></li>
     <li><a href=/norikae>乗換案内</a></li>
